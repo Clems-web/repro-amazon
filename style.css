@@ -39,6 +39,7 @@ body {
 .formulaire {
     width: 40%;
     height: 80%;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #professionnel {
@@ -70,4 +71,11 @@ form {
 
 #mail, #phone, #mailpro, #phonepro {
     width: 80%;
+}
+
+input {
+    border-radius: 27px 27px 27px 27px;
+    border-color: grey;
+    padding-left: 1rem;
+    box-shadow: 0 0 8px 4px rgba(0,0,0,0.3);
 }
